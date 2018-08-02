@@ -2,6 +2,7 @@ const { expect } = require("chai");
 const { sortingJobs } = require('./jobs');
 
 describe("sortingJobs", () => {
+
   // testing empty string
   it("returns an empty sequence when an empty string is passed", () => {
     const input = "";
@@ -22,7 +23,20 @@ describe("sortingJobs", () => {
     const actual = sortingJobs(input);
     expect(actual).to.equal('abc');
   });
+  // testing jobs with dependencies
+  it('returns an ordered list of the job passed and its dependency', () => {
+    const input = `a => c`;
+    const actual = sortingJobs(input);
+    expect(actual).to.equal('ca');
+  });
 
+  it('returns an ordered list of the jobs passed with its dependencies', () => {
+    const input = `a => c
+    b => a
+    c => f`;
+    const actual = sortingJobs(input);
+    expect(actual).to.equal('fcab');
+  });
 
 
 });  
