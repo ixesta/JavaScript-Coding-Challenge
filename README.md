@@ -91,7 +91,7 @@ To run the test suite please enter the following command into the terminal
 
   
 
-*  **Rocio** - [Ixesta](https://github.com/ixesta)
+*  **Rocio** - [Ixesta](https://ixesta.com)
 
   
 
