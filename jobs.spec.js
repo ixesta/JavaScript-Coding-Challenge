@@ -14,6 +14,14 @@ describe("sortingJobs", () => {
     const actual = sortingJobs(input);
     expect(actual).to.eql('Error!!! Jobs cannot depend on themselves');
   });
+  // testing jobs with no dependencies
+  it('returns a list of the jobs passed if thre are no dependencies', () => {
+    const input = `a =>
+    b =>
+    c =>`;
+    const actual = sortingJobs(input);
+    expect(actual).to.equal('abc');
+  });
 
 
 
