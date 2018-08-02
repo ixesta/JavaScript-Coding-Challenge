@@ -1,0 +1,26 @@
+{
+  "name": "Jobs",
+  "version": "1.0.0",
+  "description": "# JobsOTB",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./*.spec.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ixesta/Jobs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ixesta/Jobs/issues"
+  },
+  "homepage": "https://github.com/ixesta/Jobs#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.2.0",
+    "mocha": "^5.2.0"
+  }
+}
