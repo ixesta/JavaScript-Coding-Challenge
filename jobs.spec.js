@@ -37,6 +37,13 @@ describe("sortingJobs", () => {
     const actual = sortingJobs(input);
     expect(actual).to.equal('fcab');
   });
+  // testing circular dependencies
+  it('returns an ordered list of the job passed and its dependency', () => {
+    const input = `a => b
+    b => a`;
+    const actual = sortingJobs(input);
+    expect(actual).to.equal("Error!! There's a circular dependency");
+  });
 
 
 });  
