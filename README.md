@@ -12,13 +12,13 @@ $ node -v
 
 If node is already installed the output of the command will display the version (e.g. v7.9.0). If you need to install node please follow link (http://nodejs.org/en/).
 
-Please clone the repository https://github.com/ixesta/JobsOTB.git
+Please clone the repository https://github.com/ixesta/Jobs.git
 
-$ git clone https://github.com/ixesta/JobsOTB
+$ git clone https://github.com/ixesta/Jobs
 
 To install all dependencies please enter the following commands into the terminal:-
 
-$ cd JobsOTB $ npm install
+$ cd Jobs $ npm install
 
 Test Suite To run the test suite please enter the following command into the terminal
 
