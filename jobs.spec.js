@@ -8,5 +8,13 @@ describe("sortingJobs", () => {
     const actual = sortingJobs(input);
     expect(actual).to.eql([]);
   });
+  // testing jobs depending on themselves
+  it("throws an error when a job depends on itself", () => {
+    const input = '{"a":"a"}';
+    const actual = sortingJobs(input);
+    expect(actual).to.eql('Error!!! Jobs cannot depend on themselves');
+  });
+
+
 
 });  
