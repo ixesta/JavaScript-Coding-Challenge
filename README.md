@@ -53,7 +53,7 @@ To install all dependencies please enter the following commands into the termina
 
   
 
-    $ cd Jobs 
+    $ cd JavaScript Coding Challenge 
     $ npm install
 
   
@@ -81,7 +81,7 @@ To run the test suite please enter the following command into the terminal
 
 *  [Mocha](https://mochajs.org/) - Test Framework
 
-*  [npm](hhttps://www.npmjs.com/) - Package Manager
+*  [npm](https://www.npmjs.com/) - Package Manager
 
   
   
