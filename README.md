@@ -53,7 +53,7 @@ To install all dependencies please enter the following commands into the termina
 
   
 
-    $ cd JavaScript Coding Challenge 
+    $ cd JavaScript-Coding-Challenge 
     $ npm install
 
   
